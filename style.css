@@ -17,6 +17,15 @@ button{
   margin: 0 10px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.color-black {
+  color:#23272A;
+}
+
 .bg-gray {
 	background-color: #F6F6F6;
 }
@@ -68,6 +77,10 @@ header .header-content {
 /* FINE HEADER */
 
 /* MAIN */
+main section {
+  padding: 50px 0;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -86,7 +99,7 @@ header .header-content {
   padding: 20px 0;
 }
 
-.col-12 {
+main .col-12 {
 	flex-basis: calc((100% / 12) * 12);
   display:flex;
   align-items: center;
@@ -98,13 +111,13 @@ header .header-content {
 	flex-basis: calc((100% / 12) * 10);
 }
 
-.col-8 {
+main .col-8 {
 	flex-basis: calc((100% / 12) * 8);
   display: flex;
   justify-content: center;
 }
 
-.col-4 {
+main .col-4 {
 	flex-basis: calc((100% / 12) * 4);
   display: flex;
   justify-content: center;
@@ -153,6 +166,36 @@ header .header-content {
 }
 /* FINE MAIN */
 
+/* FOOTER */
+  footer .col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-col4 {
+    max-width: 300px;
+    color: white;
+  }
+
+  .col-4 div{
+    margin:10px 0;
+  }
+
+  footer span img {
+    width: 20px;
+  }
+
+  .col-4 h2 {
+    font-size: 30px;
+  }
+
+  footer h2{
+    color: #536296;
+  }
+  
+/* FINE FOOTER */
+
 /* DEBUG */
 .debug .page-header {
 	padding: 10px;
@@ -163,23 +206,8 @@ header .header-content {
 	padding: 10px;
 }
 
-
-
-.debug main section {
-	padding: 20px;
-}
-
-
-
-.debug main [class^='col-'] {
-	min-height: 200px;
-	padding: 20px;
-	border: 2px dashed black;
-}
-
 .debug footer [class^='col-'] {
 	min-height: 200px;
-	padding: 20px;
 	border: 2px dashed white;
 }
 
@@ -193,3 +221,11 @@ header .header-content {
 	background-color: #228b22;
 	min-height: 400px;
 }
+
+/* SOCIALS */
+
+ .fa {
+  margin-right: 5px;
+  text-decoration: none;
+  color: white;
+} 
