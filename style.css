@@ -15,6 +15,7 @@ button{
   border-radius: 40px;
   border: none;
   margin: 0 10px;
+  font-weight: bold;
 }
 
 a {
@@ -28,6 +29,7 @@ a {
 
 .bg-gray {
 	background-color: #F6F6F6;
+
 }
 
 .bg-black {
@@ -163,7 +165,13 @@ main .col-4 {
 }
 
 .under-title {
-  margin-bottom: 20px;
+  width: 600px;
+  min-height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-image: url("./img/stars.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .section4-content button{
@@ -184,6 +192,10 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .arrow {
+    font-size: 10px;
   }
 
   .container-col4 {
