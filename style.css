@@ -79,7 +79,7 @@ header .header-content {
 }
 
 .text {
-  flex-basis: calc((100% / 12) * 2);
+  flex-basis: calc((100% / 12) * 7);
 }
 
 .text p{
@@ -100,10 +100,15 @@ header .header-content {
 
 .col-8 {
 	flex-basis: calc((100% / 12) * 8);
+  display: flex;
+  justify-content: center;
 }
 
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-2 {
@@ -125,11 +130,6 @@ header .header-content {
 .reversed-section .row {
 	flex-direction: row-reverse;
 }
-
-
-
-
-
 /* FINE MAIN */
 
 /* DEBUG */
@@ -166,14 +166,6 @@ header .header-content {
 	padding: 20px;
 	border: 2px dashed white;
 	color: white;
-}
-
-.debug main .col-8 {
-	background-color: #1e90ff;
-}
-
-.debug main .col-4 {
-	background-color: #ffc0cb;
 }
 
 .debug .cta-section .col-12 {
