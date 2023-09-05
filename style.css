@@ -2,10 +2,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  list-style: none;
 }
 
+/* HEADER */
+  
+/* FINE HEADER */
+
+/* MAIN */
 .container {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -37,11 +43,6 @@
 
 .col-2 {
 	flex-basis: calc((100% / 12) * 2);
-	/* flex-basis: calc((100% * 2) / 12); */
-}
-
-.grow-1 {
-	flex-grow: 1;
 }
 
 .row-reverse {
@@ -64,9 +65,10 @@
 	background-color: #d3d3d3;
 }
 
+/* FINE MAIN */
+
 /* DEBUG */
 .debug .page-header {
-	background-color: aqua;
 	padding: 10px;
 }
 
