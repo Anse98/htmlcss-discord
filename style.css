@@ -18,7 +18,7 @@ button{
 }
 
 .bg-gray {
-	background-color: #d3d3d3;
+	background-color: #F6F6F6;
 }
 
 .bg-black {
@@ -129,6 +129,27 @@ header .header-content {
 
 .reversed-section .row {
 	flex-direction: row-reverse;
+}
+
+.section4-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title-p {
+  max-width: 800px;
+  text-align: center;
+}
+
+.under-title {
+  margin-bottom: 20px;
+}
+
+.section4-content button{
+  background-color: #8EA1E1;
+  color: white;
 }
 /* FINE MAIN */
 
