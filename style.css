@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
 	margin: 0;
 	padding: 0;
@@ -5,8 +6,61 @@
   list-style: none;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button{
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+  margin: 0 10px;
+}
+
+.bg-gray {
+	background-color: #d3d3d3;
+}
+
+.bg-black {
+  background-color: #23272A;
+  color: white;
+}
+
 /* HEADER */
-  
+header {
+  background-image: url(../img/jumbo.png);
+  min-height: 600px;
+  background-size: cover; 
+  color: white;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header p{
+  font-weight: 400;
+}
+
+header .col ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header ul li{
+  margin-right: 50px;
+}
+
+header .header-content {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header-content h1, p{
+  padding: 15px;
+}
 /* FINE HEADER */
 
 /* MAIN */
@@ -61,9 +115,9 @@
 	flex-direction: row-reverse;
 }
 
-.bg-gray {
-	background-color: #d3d3d3;
-}
+
+
+
 
 /* FINE MAIN */
 
@@ -75,12 +129,6 @@
 .debug .page-footer {
 	background-color: #23272a;
 	padding: 10px;
-}
-
-.debug .page-header [class^='col'] {
-	background-color: #daa520;
-	border: 2px dashed black;
-	padding: 20px;
 }
 
 .debug .hero {
